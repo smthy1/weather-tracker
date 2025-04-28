@@ -31,10 +31,10 @@ A simple Python application to check the weather forecast using the **OpenWeathe
 ## 🚀 How to Run:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/LuizSmith/weather-tracker.git
+   git clone https://github.com/smthy1/weather-tracker.git
    cd weather-tracker
 
-2. Create and activate a virtual enviroment:
+2. Create and activate a virtual environment:
     python -m venv venv
     
     source venv/bin/activate  # Linux/Mac
@@ -47,7 +47,10 @@ A simple Python application to check the weather forecast using the **OpenWeathe
 4. Create a .env file in the project root and add your Key:
     OPENWEATHERMAP_API_KEY=your_api_key_here
 
-5. Run te application: python main.py
+5. Run the application:
+   ```bash
+   python main.py
+   ```
 
 # Notes:
  - The SQLite database (clima.db) is created automatically on first run.
@@ -60,7 +63,7 @@ A simple Python application to check the weather forecast using the **OpenWeathe
  - Feel free to open issues or submit pull requests with suggestions or improvements!
 
 # Contact:
- - Developed by Luiz Smith. Reach out via email [luiz.smith.br@gmail.com]
+ - Developed by [smthy1](https://github.com/smthy1). Contacte me via [email](mailto:luiz.smith.br@gmail.com)
 
 
 # 🇧🇷 Weather Tracker
@@ -92,15 +95,15 @@ Um aplicativo simples em Python para consultar a previsão do tempo atual usando
 ## 🚀 Como Executar:
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/LuizSmith/weather-tracker.git
+   git clone https://github.com/smthy1/weather-tracker.git
    cd weather-tracker
 
 2. Crie e ative um ambiente virtual: 
-    python -m venv venv
-    
-    source venv/bin/activate  # Linux/Mac
-    
-    venv\Scripts\activate     # Windows
+    ```bash
+        python -m venv venv
+        source venv/bin/activate  # Linux/Mac
+        venv\Scripts\activate     # Windows
+    ```
 
 3. Instale as dependências:
     pip install -r requirements.txt
@@ -108,7 +111,10 @@ Um aplicativo simples em Python para consultar a previsão do tempo atual usando
 4. Crie um arquivo .env na raiz do projeto e adicione sua chave de API:
     OPENWEATHERMAP_API_KEY=sua_chave_aqui
 
-5. Execute o aplicativo: python main.py
+5. Execute o aplicativo:
+   ```bash
+   python main.py
+   ```
 
 # Observações:
  - O banco de dados SQLite (clima.db) é criado automaticamente na primeira execução.
@@ -120,5 +126,5 @@ Um aplicativo simples em Python para consultar a previsão do tempo atual usando
 # Contribuições:
  - Sinta-se à vontade para abrir issues ou enviar pull requests com sugestões ou melhorias!
 
-# Contato
- - Desenvolvido por Luiz Smith. Entre em contato via email [luiz.smith.br@gmail.com]
+# Contato:
+ - Desenvolvido por [smthy1](https://github.com/smthy1). Entre em contato via [email](mailto:luiz.smith.br@gmail.com)
