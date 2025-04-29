@@ -3,6 +3,7 @@ from database import adicionar_registro, conectar, listar_registros
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
 
 def previsao_tempo(cidade, idioma="pt"):
     city = cidade
