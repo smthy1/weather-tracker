@@ -33,16 +33,21 @@ A simple Python application to check the weather forecast using the **OpenWeathe
    ```bash
    git clone https://github.com/smthy1/weather-tracker.git
    cd weather-tracker
+   ```
 
 2. Create and activate a virtual environment:
+    ```bash
     python -m venv venv
     
     source venv/bin/activate  # Linux/Mac
     
     venv\Scripts\activate     # Windows
+    ```
 
 3. Install dependencies:
+   ```bash
     pip install -r requirements.txt
+   ```
 
 4. Create a .env file in the project root and add your Key:
     OPENWEATHERMAP_API_KEY=your_api_key_here
